@@ -39,9 +39,9 @@
 
 1. 前往[发布页面](https://github.com/AI-Coding-Practice/password-manager/releases)
 2. 下载适合您系统的安装包：
-   - Windows: `密码管理器 Setup x.x.x.exe`
-   - macOS: `密码管理器-x.x.x.dmg`
-   - Linux: `密码管理器-x.x.x.AppImage` 或 `.deb`
+   - Windows: `Password-Manager-Setup-1.0.0.exe`
+   - macOS: `Password-Manager-Setup-1.0.0.dmg` （暂未提供，可自行用下面的build命令进行打包）
+   - Linux: `Password-Manager-Setup-1.0.0.AppImage` 或 `.deb` （暂未提供，可自行用下面的build命令进行打包）
 3. 运行安装程序，按照提示完成安装
 
 ### 从源码构建
