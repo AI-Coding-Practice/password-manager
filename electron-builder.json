@@ -1,0 +1,32 @@
+{
+  "appId": "com.yglong.passwordmanager",
+  "productName": "密码管理器",
+  "directories": {
+    "output": "build"
+  },
+  "files": [
+    "dist/**/*",
+    "package.json"
+  ],
+  "extraMetadata": {
+    "main": "./dist/main.js"
+  },
+  "win": {
+    "target": ["nsis"],
+    "icon": "assets/icons/win/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true
+  },
+  "mac": {
+    "target": ["dmg"],
+    "icon": "assets/icons/mac/icon.icns"
+  },
+  "linux": {
+    "target": ["AppImage", "deb"],
+    "icon": "assets/icons/png",
+    "category": "Utility"
+  }
+} 

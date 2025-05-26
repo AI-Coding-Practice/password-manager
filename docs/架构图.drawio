@@ -1,0 +1,29 @@
+<mxfile>
+  <diagram name="架构图">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- 主进程 -->
+        <mxCell id="2" value="Electron主进程" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="100" width="120" height="60"/>
+        </mxCell>
+        <!-- 渲染进程 -->
+        <mxCell id="3" value="React渲染进程" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="120" height="60"/>
+        </mxCell>
+        <!-- 文件存储 -->
+        <mxCell id="4" value="加密文件存储" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="100" width="120" height="60"/>
+        </mxCell>
+        <!-- 连接线 -->
+        <mxCell id="5" value="" style="endArrow=classic;html=1;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" width="50" height="50"/>
+        </mxCell>
+        <mxCell id="6" value="" style="endArrow=classic;html=1;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" width="50" height="50"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
